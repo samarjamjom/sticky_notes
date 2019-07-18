@@ -38,6 +38,7 @@ case 1:
 
 		ofstream fout;
 		fout.open( FirstName + LastName + ".txt");
+		fout.close();
 
 		cout << "Please Click Enter to return to main menu \n \n";
 		cin.get();
