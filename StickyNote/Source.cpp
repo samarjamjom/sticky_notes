@@ -65,7 +65,7 @@ int main()
 				cin >> FirstName ;
 				cout << "Last name: ";
 				cin>> LastName;
-
+				cin.get();
 
 				//input stream only for check out if file exist or not
 				ifstream fin;
@@ -93,7 +93,7 @@ int main()
 					PrintToFile <<GetTime();
 					cout << "Ready!\n"
 						<< "Please enter your note to stop enter '##' :\n";
-					cin.get();
+					//cin.get();
 					getline(cin, NoteLine);
 					while (NoteLine != "##")
 					{
@@ -105,7 +105,7 @@ int main()
 				}
 
 				cout << "Please Click Enter to return to main menu \n";	
-				cin.get();
+				//cin.get();
 				if (cin.get() == '\n')
 					work = true;
 				}	

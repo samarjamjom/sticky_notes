@@ -1,15 +1,16 @@
-﻿Build started 7/19/2019 10:12:47 PM.
-     1>Project "C:\Users\actc\Downloads\note\sticky_notes\StickyNote\StickyNote.vcxproj" on node 2 (Build target(s)).
+﻿Build started 7/28/2019 10:22:03 AM.
+     1>Project "C:\Users\actc\Downloads\note2\sticky_notes\StickyNote\StickyNote.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-     1>c:\users\actc\downloads\note\sticky_notes\stickynote\source.cpp(12): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\actc\downloads\note2\sticky_notes\stickynote\source.cpp(12): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(86) : see declaration of 'ctime'
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\actc\Downloads\note\sticky_notes\Debug\StickyNote.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\actc\Downloads\note\sticky_notes\Debug\StickyNote.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\actc\Downloads\note\sticky_notes\Debug\StickyNote.lib" /MACHINE:X86 Debug\Source.obj
-         StickyNote.vcxproj -> C:\Users\actc\Downloads\note\sticky_notes\Debug\StickyNote.exe
-     1>Done Building Project "C:\Users\actc\Downloads\note\sticky_notes\StickyNote\StickyNote.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\actc\Downloads\note2\sticky_notes\Debug\StickyNote.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\actc\Downloads\note2\sticky_notes\Debug\StickyNote.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\actc\Downloads\note2\sticky_notes\Debug\StickyNote.lib" /MACHINE:X86 Debug\Source.obj
+         LINK : C:\Users\actc\Downloads\note2\sticky_notes\Debug\StickyNote.exe not found or not built by the last incremental link; performing full link
+         StickyNote.vcxproj -> C:\Users\actc\Downloads\note2\sticky_notes\Debug\StickyNote.exe
+     1>Done Building Project "C:\Users\actc\Downloads\note2\sticky_notes\StickyNote\StickyNote.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.98
+Time Elapsed 00:00:03.86
